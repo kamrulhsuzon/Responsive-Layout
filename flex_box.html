@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout</title>
+    <style>
+        .container{
+            border: 2px solid yellow;
+            display: flex;
+            height: 250px;
+            /* justify-content: center;
+            align-items: center; */
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse;   */
+            /* flex-direction: row; */
+            /* flex-direction: row-reverse; */
+            flex-wrap: wrap;
+        }
+        .box{
+            border: 1px dotted orange;
+            height: 50px;
+            width: 75px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flexbox Layout</h1>
+    <div class="container">
+        <!-- .box{Box-$}*3 -->
+         <div class="box">Box-1</div>
+         <div class="box">Box-2</div>
+         <div class="box">Box-3</div>
+         <div class="box">Box-4</div>
+         <div class="box">Box-5</div>
+         <div class="box">Box-6</div>
+         <div class="box">Box-7</div>
+
+    </div>
+</body>
+</html>

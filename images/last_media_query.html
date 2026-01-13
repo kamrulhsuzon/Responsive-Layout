@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Last-Media Query</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+        .food{
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .food img {
+            width: 100%;
+
+        }
+        @media screen and (max-width: 576px){
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+            
+        }
+        @media screen and (min-width: 577px) and (max-width: 992px){
+            .container{
+               grid-template-columns: repeat(2, 1fr); 
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <H1>Media -Query</H1>
+    <!-- .container>.food*12>img[src="caps.png"]+h3{food items -$}+p{price: /$$00}+p>lorem10^bnt{Buy Now} -->
+     <div class="container">
+        <div class="food">
+            <img src="caps.png" alt="">
+            <h3>food items -1</h3>
+            <p>price: /0100</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, beatae?</p>
+            <bnt>Buy Now</bnt>
+        </div>
+        <div class="food">
+            <img src="caps.png" alt="">
+            <h3>food items -2</h3>
+            <p>price: /0200</p>
+            <p>Molestias quidem est incidunt, eligendi architecto nam ipsam praesentium fugit!</p>
+            <bnt>Buy Now</bnt>
+        </div>
+        <div class="food">
+            <img src="caps.png" alt="">
+            <h3>food items -3</h3>
+            <p>price: /0300</p>
+            <p>Eum exercitationem unde voluptatibus aperiam fuga corrupti? Omnis, repellendus minus.</p>
+            <bnt>Buy Now</bnt>
+        </div>
+        <div class="food">
+            <img src="caps.png" alt="">
+            <h3>food items -4</h3>
+            <p>price: /0400</p>
+            <p>Numquam minima quasi dolorem? Tenetur magni facere nulla consequatur quisquam.</p>
+            <bnt>Buy Now</bnt>
+        </div>
+        <div class="food">
+            <img src="caps.png" alt="">
+            <h3>food items -5</h3>
+            <p>price: /0500</p>
+            <p>Delectus ratione, odit est corporis dignissimos accusamus facere ab! Cumque.</p>
+            <bnt>Buy Now</bnt>
+        </div>
+        <div class="food">
+            <img src="caps.png" alt="">
+            <h3>food items -6</h3>
+            <p>price: /0600</p>
+            <p>Optio voluptatibus aperiam explicabo libero et praesentium quasi sapiente illum.</p>
+            <bnt>Buy Now</bnt>
+        </div>
+        <div class="food">
+            <img src="caps.png" alt="">
+            <h3>food items -7</h3>
+            <p>price: /0700</p>
+            <p>Aliquam nobis itaque quis nesciunt beatae enim, illum dolor officiis.</p>
+            <bnt>Buy Now</bnt>
+        </div>
+        <div class="food">
+            <img src="caps.png" alt="">
+            <h3>food items -8</h3>
+            <p>price: /0800</p>
+            <p>Debitis impedit aspernatur praesentium nisi velit ad voluptates beatae molestiae.</p>
+            <bnt>Buy Now</bnt>
+        </div>
+        <div class="food">
+            <img src="caps.png" alt="">
+            <h3>food items -9</h3>
+            <p>price: /0900</p>
+            <p>At commodi est dolores similique. Sapiente assumenda non labore temporibus?</p>
+            <bnt>Buy Now</bnt>
+        </div>
+        <div class="food">
+            <img src="caps.png" alt="">
+            <h3>food items -10</h3>
+            <p>price: /1000</p>
+            <p>Sequi, omnis corrupti. Provident eaque pariatur, optio itaque nobis deleniti.</p>
+            <bnt>Buy Now</bnt>
+        </div>
+        <div class="food">
+            <img src="caps.png" alt="">
+            <h3>food items -11</h3>
+            <p>price: /1100</p>
+            <p>Quos, voluptatibus! Vero tenetur molestiae maxime itaque consectetur tempore ducimus.</p>
+            <bnt>Buy Now</bnt>
+        </div>
+        <div class="food">
+            <img src="caps.png" alt="">
+            <h3>food items -12</h3>
+            <p>price: /1200</p>
+            <p>Eaque, exercitationem! Repellendus, reprehenderit mollitia. Placeat quas ad optio nobis.</p>
+            <bnt>Buy Now</bnt>
+        </div>
+     </div>
+</body>
+</html>

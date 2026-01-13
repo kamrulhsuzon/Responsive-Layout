@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .food {
+            border: 2px solid red;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .food img {
+            width: 100%;
+        }
+        /* simple Media Query */
+        /* @media screen and (max-with: 576px) {
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+        } */
+         @media screen and(max-with: 576px) {
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+            
+         }
+    </style>
+</head>
+
+<body>
+    <!-- .container>.food*12>img[src="caps.png"]+h3{food items -$}+p{price: /$$00}+p>lorem10 -->
+    <div class="container">
+        <div class="food">
+            <img src="images/Caps.png" alt="">
+            <h3>food items -1</h3>
+            <p>price: /0100</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, dolores.</p>
+        </div>
+        <div class="food">
+            <img src="images/Caps.png" alt="">
+            <h3>food items -2</h3>
+            <p>price: /0200</p>
+            <p>Eum suscipit deserunt pariatur veritatis cum id dolores, ipsum eaque!</p>
+        </div>
+        <div class="food">
+            <img src="images/Caps.png" alt="">
+            <h3>food items -3</h3>
+            <p>price: /0300</p>
+            <p>Alias molestiae tempora non voluptatum pariatur blanditiis commodi aperiam veritatis?</p>
+        </div>
+        <div class="food">
+            <img src="images/Caps.png" alt="">
+            <h3>food items -4</h3>
+            <p>price: /0400</p>
+            <p>Tempora delectus accusantium fugiat ipsam eligendi laboriosam quaerat natus atque.</p>
+        </div>
+        <div class="food">
+            <img src="images/Caps.png" alt="">
+            <h3>food items -5</h3>
+            <p>price: /0500</p>
+            <p>Sint expedita magnam sapiente sunt id nobis rem iste modi?</p>
+        </div>
+        <div class="food">
+            <img src="images/Caps.png" alt="">
+            <h3>food items -6</h3>
+            <p>price: /0600</p>
+            <p>Ea autem laboriosam cumque consectetur earum qui doloribus! Officia, quae?</p>
+        </div>
+        <div class="food">
+            <img src="images/Caps.png" alt="">
+            <h3>food items -7</h3>
+            <p>price: /0700</p>
+            <p>Sit earum nisi consequuntur tenetur, illo esse iusto? Minima, sit.</p>
+        </div>
+        <div class="food">
+            <img src="images/Caps.png" alt="">
+            <h3>food items -8</h3>
+            <p>price: /0800</p>
+            <p>Qui aspernatur cum, suscipit corrupti perspiciatis praesentium quae sed minima!</p>
+        </div>
+        <div class="food">
+            <img src="images/Caps.png" alt="">
+            <h3>food items -9</h3>
+            <p>price: /0900</p>
+            <p>Quam, perspiciatis cupiditate laudantium sapiente sed doloribus nostrum iusto commodi?</p>
+        </div>
+        <div class="food">
+            <img src="images/Caps.png" alt="">
+            <h3>food items -10</h3>
+            <p>price: /1000</p>
+            <p>Enim hic aperiam soluta error quaerat, optio velit molestias aspernatur.</p>
+        </div>
+        <div class="food">
+            <img src="images/Caps.png" alt="">
+            <h3>food items -11</h3>
+            <p>price: /1100</p>
+            <p>Velit illo laudantium repellat a possimus corrupti facilis! Debitis, quod.</p>
+        </div>
+        <div class="food">
+            <img src="cimages/Caps.png" alt="">
+            <h3>food items -12</h3>
+            <p>price: /1200</p>
+            <p>Earum numquam similique vero obcaecati rem, natus omnis reiciendis quam?</p>
+        </div>
+    </div>
+</body>
+
+</html>
